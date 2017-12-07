@@ -1,0 +1,25 @@
+{
+    "name": "discodian/ext-pusher",
+    "description": "The Pusher extension for discodian",
+    "type": "discodian-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "daniel@klabbers.email",
+            "homepage": "https://luceos.com"
+        }
+    ],
+    "require": {
+        "discodian/core": "*",
+        "pusher/pusher-php-server": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Discodian\\Pusher\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
